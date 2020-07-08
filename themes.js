@@ -9,6 +9,20 @@ const themes = [
         lyrics:
           "[PRISONERS]\nAaah, aah, aaaahhhh\nAaah, aah, aaaahhhh\nAaah, aah, aaaahhhh\nAaah, aah, aaaahhhh\nLook down, look down\nDon't look 'em in the eye\nLook down, look down\nYou're here until you die",
       },
+      {
+        song_id: 12,
+        song_name: "The Confrontation",
+        file_for_audio_clip: "",
+        lyrics:
+          "[JAVERT]\nValjean, at last, we see each other plain\n'M'sieur le maire,' you'll wear a different chain",
+      },
+      {
+        song_id: 16,
+        song_name: "Look Down",
+        file_for_audio_clip: "",
+        lyrics:
+          "[BEGGARS]\nLook down and see the beggars at your feet\nLook down and show some mercy if you can\nLook down and see the sweepings of the street\nLook down, look down, upon your fellow man",
+      },
     ],
   },
   {
@@ -21,6 +35,13 @@ const themes = [
         lyrics:
           "[JAVERT]\nNow bring me Prisoner 24601\nYour time is up\nAnd your parole's begun\nYou know what that means\n\n[VALJEAN]\nYes, it means I'm free\n\n[JAVERT]\nNo!\nIt means you get your yellow ticket-of-leave\nYou are a thief\n\n[VALJEAN]\nI stole a loaf of bread\n\n[JAVERT]\nYou robbed a house!\n\n[VALJEAN]\nI broke a window pane\nMy sister's child was close to death\nAnd we were starving\n\n[JAVERT]\nYou will starve again\nUnless you learn the meaning of the law\n\n[VALJEAN]\nI know the meaning of those nineteen years\nA slave of the law",
       },
+      {
+        song_id: 12,
+        song_name: "The Confrontation",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nBefore you say another word, Javert\nBefore you chain me up like a slave again\nListen to me! There is something I must do\n\nThis woman leaves behind a suffering child\nThere is none but me who can intercede\nIn mercy's name, three days are all I need\n\nThen I'll return, I pledge my word\nThen I'll return—\n\n[JAVERT]\nYou must think me mad\nI've hunted you across the years\nMen like you can never change\nA man, such as you",
+      },
     ],
   },
   {
@@ -32,6 +53,13 @@ const themes = [
         file_for_audio_clip: "",
         lyrics:
           "[VALJEAN]\nFreedom is mine\nThe earth is still\nI feel the wind\nI breathe again\nAnd the skies clear\nThe world is waking\n\nDrink from the pool\nHow clean the taste\nNever forget the years, the waste",
+      },
+      {
+        song_id: 11,
+        song_name: "Fantine's Death",
+        file_for_audio_clip: "",
+        lyrics:
+          "[FANTINE]\nMy Cosette—\n\n[VALJEAN]\nShall live in my protection\n\n[FANTINE]\nTake her now\n\n[VALJEAN]\nYour child will want for nothing\n\n[FANTINE]\nGood M'sieur, you come from God in Heaven\n\n[VALJEAN]\nAnd none shall ever harm Cosette\nAs long as I am living",
       },
     ],
   },
@@ -66,6 +94,20 @@ const themes = [
         lyrics:
           "[JAVERT]\nCan this be true? I don't believe what I see\nA man your age to be as strong as you are\nA memory stirs, you make me think of a man",
       },
+      {
+        song_id: 13,
+        song_name: "Castle on a Cloud",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MADAME THENARDIER (slamming a bucket onto a table)]\nNow look who's here, the little madame herself\nPretending once again she's been so awfully good\nBetter not let me catch you slacking\nBetter not catch my eye\nTen rotten francs your mother sends me\nWhat is that going to buy?\nNow, take that pail, my little 'Mademoiselle'\nAnd go and draw some water from the well",
+      },
+      {
+        song_id: 24,
+        song_name: "The Attack on Rue Plumet",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nMy God, Cosette\nI heard a cry in the dark\nI heard the shout of angry voices in the street",
+      },
     ],
   },
   {
@@ -91,6 +133,13 @@ const themes = [
         file_for_audio_clip: "",
         lyrics:
           "[VALJEAN]\nYou say this man denies it all\nAnd gives no sign of understanding\nOr repentance?\nYou say this man is going to trial\nAnd that's he's sure to be returned\nTo serve his sentence?\nCome to that, can you be sure\nThat I am not your man?",
+      },
+      {
+        song_id: 15,
+        song_name: "The Bargain",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nI found her wandering in the wood\nThis little child, I found her trembling in the shadows\nAnd I am here to help Cosette\nAnd I will settle any debt you may think proper\nI will pay what I must pay\nTo take Cosette away",
       },
     ],
   },
@@ -130,6 +179,27 @@ const themes = [
         lyrics:
           "[JAVERT]\nI have only known one other\nWho can do what you have done\nHe's a convict from the chain gang\nHe's been ten years on the run\n\nBut he couldn't run forever\nWe have found his hideaway\nAnd he's just been re-arrested\nAnd he comes to court today",
       },
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics:
+          "[JAVERT]\nCould it be he's some old jailbird\nThat the tide now washes in?\nHeard my name and started running\nHad the brand upon his skin\n\nAnd the girl who stood beside him\nWhen I turned they both had gone\nCould he be the man I've hunted?\nCould it be he's Jean Valjean?",
+      },
+      {
+        song_id: 18,
+        song_name: "Stars",
+        file_for_audio_clip: "",
+        lyrics:
+          "[GAVROCHE]\nThat inspector thinks he's something\nBut it's me that runs this town\nAnd my theater never closes\nAnd the curtain's never down\nTrust Gavroche, have no fear\nDon't you worry, auntie dear\nYou can always find me here",
+      },
+      {
+        song_id: 25,
+        song_name: "One Day More",
+        file_for_audio_clip: "",
+        lyrics:
+          "[JAVERT]\nOne more day till revolution\nWe will nip it in the bud\nWe'll be ready for these schoolboys\nThey will wet themselves with blood!",
+      },
     ],
   },
   {
@@ -155,6 +225,13 @@ const themes = [
         file_for_audio_clip: "",
         lyrics:
           "[JAVERT]\nWell, of course he now denies it\nYou'd expect that of a con\nBut he couldn't run forever\nNo, not even Jean Valjean",
+      },
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER]\nIn the absence of a victim\nDear Inspector, may I go?\nAnd remember when you've nicked him\nIt was me who told you so!\n\n[JAVERT]\nLet the old man keep on running\nI will run him off his feet\n\nEveryone about your business\nClear this garbage off the street!",
       },
     ],
   },
@@ -237,6 +314,33 @@ const themes = [
         lyrics:
           "[FANTINE]\nI dreamed a dream in time gone by\nWhen hope was high and life worth living\nI dreamed that love would never die\nI dreamed that God would be forgiving\n\nThen I was young and unafraid\nAnd dreams were made and used and wasted\nThere was no ransom to be paid\nNo song unsung, no wine untasted",
       },
+      {
+        song_id: 12,
+        song_name: "The Confrontation",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nAnd this I swear to you tonight\n\n[JAVERT]\nThere is no place for you to hide\n\n[VALJEAN]\nYour child will live within my care\n\n[JAVERT]\nWherever you may hide away\n\n[VALJEAN]\nAnd I will raise her to the light\n\n[VALJEAN and JAVERT]\nI swear to you, I will be there",
+      },
+      {
+        song_id: 15,
+        song_name: "The Bargain",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nThere is a duty I must heed\nThere is a promise I have made\nFor I was blind to one in need\nI did not see what stood before me\n\nNow her mother is with God\nFantine's suffering is over\nAnd I speak here with her voice\nAnd I stand here in her place",
+      },
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics: "[MARIUS]\nI didn't see you there, forgive me",
+      },
+      {
+        song_id: 25,
+        song_name: "One Day More",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MARIUS]\nI did not live until today\nHow can I live when we are parted?\n\n[VALJEAN]\nOne day more\n\n[MARIUS and COSETTE]\nTomorrow you'll be worlds away\nAnd yet with you, my world has started",
+      },
     ],
   },
   {
@@ -260,6 +364,13 @@ const themes = [
         file_for_audio_clip: "",
         lyrics:
           "[VALJEAN]\nI've seen your face before\nShow me some way to help you\nHow have you come to grief\nIn such a place as this?",
+      },
+      {
+        song_id: 11,
+        song_name: "Fantine's Death",
+        file_for_audio_clip: "",
+        lyrics:
+          "[FANTINE (lying in a hospital bed, delirious)]\nCosette, it's turned so cold\nCosette, it's past your bedtime\nYou've played the day away\nAnd soon it will be night",
       },
     ],
   },
@@ -285,6 +396,226 @@ const themes = [
         lyrics:
           "[VALJEAN]\nWho am I?\nCan I conceal myself for evermore?\nPretend I'm not the man I was before?\nAnd must my name until I die\nBe no more than an alibi?\n\nMust I lie?\nHow can I ever face my fellow men?\nHow can I ever face myself again?\nMy soul belongs to God, I know\nI made that bargain long ago\n\nHe gave me hope, when hope was gone\nHe gave me strength to journey on\n\nWho am I? Who am I?\nI'm Jean Valjean",
       },
+      {
+        song_id: 25,
+        song_name: "One Day More",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nOne day more\nAnother day, another destiny\nThis never ending road to Calvary\nThese men who seem to know my crime\nWill surely come a second time\nOne day more",
+      },
+    ],
+  },
+  {
+    theme_name: "Castle on a Cloud",
+    songs_where_it_appears: [
+      {
+        song_id: 13,
+        song_name: "Castle on a Cloud",
+        file_for_audio_clip: "",
+        lyrics:
+          "[YOUNG COSETTE (sweeping)]\nThere is a castle on a cloud\nI like to go there in my sleep\nAren't any floors for me to sweep\nNot in my castle on a cloud",
+      },
+      {
+        song_id: 15,
+        song_name: "The Bargain",
+        file_for_audio_clip: "",
+        lyrics: "La la la la la la la la...",
+      },
+      {
+        song_id: 24,
+        song_name: "The Attack on Rue Plumet",
+        file_for_audio_clip: "",
+        lyrics:
+          "[COSETTE]\nThree men I saw beyond the wall\nThree men in shadow moving fast\n\n[VALJEAN]\nThis is a warning to us all\nThese are the shadows of the past",
+      },
+    ],
+  },
+  {
+    theme_name: "Master of the House",
+    songs_where_it_appears: [
+      {
+        song_id: 14,
+        song_name: "Master of the House",
+        file_for_audio_clip: "",
+        lyrics:
+          "[DRINKERS/DINERS and THENARDIER]\nMaster of the house, quick to catch your eye\nNever wants a passerby to pass him by\nServant to the poor butler to the great\nComforter, philosopher, and lifelong mate\nEverybody's boon companion\nGives 'em everything he's got\n\n[THENARDIER]\nDirty bunch of geezers\nJesus, what a sorry little lot",
+      },
+      {
+        song_id: 25,
+        song_name: "One Day More",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER and MADAME THENARDIER]\nWatch them run amuck\nCatch'm as they fall\nNever know your luck\nWhen there's a free for all\nHere a little dip\nThere a little touch\nMost of them are goners\nSo they won't miss much!",
+      },
+    ],
+  },
+  {
+    theme_name: "Thenardiers",
+    songs_where_it_appears: [
+      {
+        song_id: 15,
+        song_name: "The Bargain",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER (grabbing and 'hugging' Young Cosette)]\nWhat to do, what to say\nShall you carry our treasure away?\nWhat a gem, what a pearl\nBeyond rubies is our little girl\nHow can we speak of debt\nLet's not haggle for darling Cosette",
+      },
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER]\nPlease M'sieur, come this way\nHere's a child that ain't eaten today\nSave a life, spare a sou\nGod rewards all the good that you do",
+      },
+    ],
+  },
+  {
+    theme_name: "Eponine theme 1",
+    songs_where_it_appears: [
+      {
+        song_id: 16,
+        song_name: "Look Down",
+        file_for_audio_clip: "",
+        lyrics:
+          "[GAVROCHE (Beggars continuing in background)]\nHow do you do? My name's Gavroche\nThese are my people, here's my patch\nNot much to look at, nothing posh\nNothing that you'd call up to scratch\nThis is my school, my high society\nHere in the slums of Saint Michel\nWe live on crumbs of humble piety\nTough on the teeth, but what the hell\nThink you're poor, think you're free\nFollow me, follow me!",
+      },
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MARIUS]\nHey, Eponine, what's up today\nI haven't seen you much about\n\n[EPONINE]\nHere, you can always catch me in\n\n[MARIUS]\nMind the police don't catch you out\n\n[EPONINE (grabbing his books)]\nHere, whatcher doing with all them books\nI could have been a student, too\nDon't judge a girl on how she looks\nI know a lot of things, I do",
+      },
+    ],
+  },
+  {
+    theme_name: "Heavy recit",
+    songs_where_it_appears: [
+      {
+        song_id: 17,
+        song_name: "The Robbery",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER (assembling his gang)]\nEveryone here, you know your place\nBrujon, Babet, Claqusous!\nYou, Montparnasse, watch for the law\nWith Eponine, take care\nYou turn on the tears\nNo mistakes, my dears",
+      },
+      {
+        song_id: 24,
+        song_name: "The Attack on Rue Plumet",
+        file_for_audio_clip: "",
+        lyrics:
+          "[THENARDIER]\nDon't interfere\nYou've got some gall\nTake care, young miss\nYou've got a lot to say!\n\n[BRUJON]\nShe's going soft\n\n[CLAQUESOU]\nHappens to all\n\n[MONTPARNASSE]\nGo home, 'Ponine\nGo home, you're in the way",
+      },
+    ],
+  },
+  {
+    theme_name: "Stars",
+    songs_where_it_appears: [
+      {
+        song_id: 18,
+        song_name: "Stars",
+        file_for_audio_clip: "",
+        lyrics:
+          "[JAVERT]\nLord let me find him\nThat I may see him\nSafe behind bars\nI will never rest\nTill then, this I swear\nThis I swear by the stars!",
+      },
+    ],
+  },
+  {
+    theme_name: "Eponine theme 2a",
+    songs_where_it_appears: [
+      {
+        song_id: 19,
+        song_name: "Eponine's Errand",
+        file_for_audio_clip: "",
+        lyrics:
+          "[EPONINE]\nGood God! Oh, what a rumpus!\n\n[MARIUS]\nThat girl, who can she be?\n\n[EPONINE]\nThat cop! He'd like to jump us\nBut he ain't smart, not he",
+      },
+      {
+        song_id: 24,
+        song_name: "The Attack on Rue Plumet",
+        file_for_audio_clip: "",
+        lyrics:
+          "[EPONINE]\n'Parnasse, what are you doing\nSo far out of our patch?\n\n[MONTPARNASSE]\nThis house, we're going to do it\nRich man, plenty of scratch",
+      },
+    ],
+  },
+  {
+    theme_name: "Eponine theme 2b",
+    songs_where_it_appears: [
+      {
+        song_id: 19,
+        song_name: "Eponine's Errand",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MARIUS]\nÉponine, who was that girl?\n\n[EPONINE]\nSome bourgeois, two-a-penny thing!\n\n[MARIUS]\nÉponine, find her for me!\n\n[EPONINE]\nWhat will you give me?\n\n[MARIUS]\nAnything!\n\n[EPONINE]\nGot you all excited now\nBut God knows what you see in her\nAin't you all delighted now?\nNo, I don't want your money sir",
+      },
+      {
+        song_id: 24,
+        song_name: "The Attack on Rue Plumet",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MONTPARNASSE]\nYou remember he's the one\nWho got away the other day\nGot a number on his chest\nPerhaps a fortune put away!",
+      },
+    ],
+  },
+  {
+    theme_name: "Little Fall of Rain",
+    songs_where_it_appears: [
+      {
+        song_id: 19,
+        song_name: "Eponine's Errand",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MARIUS]\nÉponine, do this for me\nDiscover where she lives\nBut careful how you go\nDon't let your father know\n'Ponine! I'm lost until she's found\n\n[EPONINE]\nYou see, I told you so!\nThere's lots of things I know\n'Ponine, she knows her way around",
+      },
+    ],
+  },
+  {
+    theme_name: "Do you hear the people sing?",
+    songs_where_it_appears: [
+      {
+        song_id: 21,
+        song_name: "Do You Hear the People Sing?",
+        file_for_audio_clip: "",
+        lyrics:
+          "[ALL]\nDo you hear the people sing?\nSinging a song of angry men?\nIt is the music of a people\nWho will not be slaves again!\nWhen the beating of your heart\nEchoes the beating of the drums\nThere is a life about to start\nWhen tomorrow comes!",
+      },
+    ],
+  },
+  {
+    theme_name: "Valjean concern",
+    songs_where_it_appears: [
+      {
+        song_id: 22,
+        song_name: "In My Life",
+        file_for_audio_clip: "",
+        lyrics:
+          "[VALJEAN]\nDear Cosette\nYou're such a lonely child\nHow pensive\nHow sad you seem to me\nBelieve me\nWere it within my power\nI'd fill each passing hour\nHow quiet it must be\nI can see\nWith only me for company",
+      },
+    ],
+  },
+  {
+    theme_name: "A heart full of love",
+    songs_where_it_appears: [
+      {
+        song_id: 23,
+        song_name: "A Heart Full of Love",
+        file_for_audio_clip: "",
+        lyrics:
+          "[MARIUS]\nA heart full of love\n\n[EPONINE]\nHe was never mine to lose\n\n[MARIUS and COSETTE]\nA heart full of you\n\n[EPONINE]\nWhy regret what could not be?\n\n[MARIUS]\nA single look and then I knew\n\n[COSETTE]\nI knew it too\n\n[EPONINE]\nThese are words he'll never say\nNot to me\nNot to me\nNot to me\n\n[MARIUS]\nFrom today\n\n[COSETTE]\nEvery day\n\n[COSETTE and MARIUS]\nAnd it isn't a dream\nNot a dream\nAfter all!\n\n[EPONINE]\nHis heart full of love\nHe will never\nFeel this way",
+      },
+      {
+        song_id: 43,
+        song_name: "Every Day / A Heart Full of Love (Reprise)",
+        file_for_audio_clip: "",
+        lyrics:
+          "[COSETTE]\nA heart full of love\nNo fear no regret\n'My name is Marius Pontmercy.'\n\n[VALJEAN]\nShe was never mine to keep\nShe is youthful\nShe is free\n\n[MARIUS]\nCosette, Cosette!\n\n[COSETTE]\nI saw you waiting and I knew.\n\n[VALJEAN]\nLove is the garden of the young.\n\n[MARIUS]\nWaiting for you\nAt your feet\n\n[COSETTE]\nAt your call\n\n[VALJEAN]\nLet it be\nLet it be.\n\n[MARIUS and COSETTE]\nAnd it wasn't a dream\nNot a dream\nAfter all\n\n[VALJEAN]\nA heart full of love\nThis I give you\nOn this day",
+      },
     ],
   },
 ];
+
+const summary = themes.map((theme) => ({
+  theme_name: theme.theme_name,
+  songs_where_it_appears: theme.songs_where_it_appears.length,
+}));
+console.log(`Total themes = ${themes.length}`);
+console.log(summary);
