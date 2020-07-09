@@ -2,7 +2,7 @@ const _ = require("lodash");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
 const d3 = require("d3");
-const { themes } = require("./themes.js");
+const { themes } = require("./data/themes.js");
 
 const songs = d3.csvParse(fs.readFileSync("./songs.csv", "utf-8"));
 
@@ -29,4 +29,15 @@ _.forEach(songs, (song) => {
   themesBySong[song_name] = themesInThisSong;
 });
 
-exports.themesBySong = themesBySong;
+fs.writeFileSync(
+  "../essay/src/themesBySong.json",
+  JSON.stringify(themesBySong),
+  "utf8",
+  (err) => {
+    if (err) {
+      console.log("error");
+    } else {
+      console.log("success");
+    }
+  }
+);
