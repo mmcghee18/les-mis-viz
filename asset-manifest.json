@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/les-mis-viz/static/css/main.58a5209a.chunk.css",
+    "main.js": "/les-mis-viz/static/js/main.c81c8f6c.chunk.js",
+    "main.js.map": "/les-mis-viz/static/js/main.c81c8f6c.chunk.js.map",
+    "runtime-main.js": "/les-mis-viz/static/js/runtime-main.d5214509.js",
+    "runtime-main.js.map": "/les-mis-viz/static/js/runtime-main.d5214509.js.map",
+    "static/js/2.1f9902c9.chunk.js": "/les-mis-viz/static/js/2.1f9902c9.chunk.js",
+    "static/js/2.1f9902c9.chunk.js.map": "/les-mis-viz/static/js/2.1f9902c9.chunk.js.map",
+    "index.html": "/les-mis-viz/index.html",
+    "precache-manifest.6fc4c5948d61f39bddd1ac0b1754a1de.js": "/les-mis-viz/precache-manifest.6fc4c5948d61f39bddd1ac0b1754a1de.js",
+    "service-worker.js": "/les-mis-viz/service-worker.js",
+    "static/css/main.58a5209a.chunk.css.map": "/les-mis-viz/static/css/main.58a5209a.chunk.css.map",
+    "static/js/2.1f9902c9.chunk.js.LICENSE.txt": "/les-mis-viz/static/js/2.1f9902c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5214509.js",
+    "static/js/2.1f9902c9.chunk.js",
+    "static/css/main.58a5209a.chunk.css",
+    "static/js/main.c81c8f6c.chunk.js"
+  ]
+}
