@@ -4,25 +4,25 @@ const { themes } = require("./data/themes.js");
 
 const matrix = [...Array(46).fill(0)].map((e) => Array(46).fill(0));
 
-_.forEach(themes, ({ theme_name, songs_where_it_appears }) => {
-  for (let i = 0; i < songs_where_it_appears.length; i++) {
-    for (let j = i + 1; j < songs_where_it_appears.length; j++) {
-      const song1 = songs_where_it_appears[i];
-      const song2 = songs_where_it_appears[j];
+_.forEach(themes, ({ songs_where_it_appears }) => {
+  const sortedSongs = _.sortBy(songs_where_it_appears, "song_id");
+  const fromSong = songs_where_it_appears[0];
 
-      if (matrix[song1.song_id - 1][song2.song_id - 1]) {
-        matrix[song1.song_id - 1][song2.song_id - 1] += 100;
-      } else {
-        matrix[song1.song_id - 1][song2.song_id - 1] = 100;
-      }
+  for (let i = 1; i < sortedSongs.length; i++) {
+    const toSong = sortedSongs[i];
 
-      if (matrix[song2.song_id - 1][song1.song_id - 1]) {
-        matrix[song2.song_id - 1][song1.song_id - 1] += 100;
-      } else {
-        matrix[song2.song_id - 1][song1.song_id - 1] = 100;
-      }
+    if (matrix[fromSong.song_id - 1][toSong.song_id - 1]) {
+      matrix[fromSong.song_id - 1][toSong.song_id - 1] += 100;
+      //matrix[toSong.song_id - 1][fromSong.song_id - 1] += 100;
+    } else {
+      matrix[fromSong.song_id - 1][toSong.song_id - 1] = 100;
+      //matrix[toSong.song_id - 1][fromSong.song_id - 1] = 100;
     }
   }
 });
 
-fs.writeFileSync("../essay/src/matrix.json", JSON.stringify(matrix), "utf8");
+fs.writeFileSync(
+  "../essay/src/data/matrix.json",
+  JSON.stringify(matrix),
+  "utf8"
+);

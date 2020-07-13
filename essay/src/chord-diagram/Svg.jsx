@@ -12,7 +12,6 @@ const Svg = ({
   resizeWithWindow,
   onClick,
 }) => {
-  console.log({ width, height });
   return (
     <div
       className="svg-container"
