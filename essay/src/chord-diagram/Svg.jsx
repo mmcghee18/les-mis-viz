@@ -12,28 +12,23 @@ const Svg = ({
   resizeWithWindow,
   onClick,
 }) => {
-  const chartSettings = {};
-  const [ref, dms] = useChartDimensions(chartSettings);
-
+  console.log({ width, height });
   return (
     <div
       className="svg-container"
-      ref={ref}
       style={{
         ...style,
         ...(!resizeWithWindow
           ? { width: `${width}px`, height: `${height}px` }
-          : { height: "70vh" }),
+          : {}),
       }}
     >
       <svg
         className={`svg-content ${className}`}
-        height={dms.height}
-        width={dms.width}
-        // viewBox={`-${width / 2} -${height / 2} ${width + 500} ${height + 500}`}
-        // preserveAspectRatio={"xMidYMid meet"}
+        viewBox={`-${width / 2} -${height / 2} ${width + 500} ${height + 500}`}
+        preserveAspectRatio={"xMidYMid meet"}
       >
-        <g transform={`translate(${dms.width / 2}, ${dms.height / 2})`}>
+        <g transform="translate(250,250)">
           <rect
             fillOpacity={0}
             height={height}
