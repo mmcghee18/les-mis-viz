@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b02267adad1f63001b207935d94dc549",
+    "revision": "719b686845ea9d4c4486604051df1a77",
     "url": "/les-mis-viz/index.html"
   },
   {
-    "revision": "dd9d4c86f0c331c52036",
+    "revision": "5b2fdad9dff09ff8fe37",
     "url": "/les-mis-viz/static/css/main.6da6f3aa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/les-mis-viz/static/js/2.2dadbaa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd9d4c86f0c331c52036",
-    "url": "/les-mis-viz/static/js/main.a064800b.chunk.js"
+    "revision": "5b2fdad9dff09ff8fe37",
+    "url": "/les-mis-viz/static/js/main.b9f25117.chunk.js"
   },
   {
     "revision": "75d1fec7b21ff653e83f",
