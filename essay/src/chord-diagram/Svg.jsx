@@ -24,10 +24,10 @@ const Svg = ({
     >
       <svg
         className={`svg-content ${className}`}
-        viewBox={`-${width / 2} -${height / 2} ${width + 500} ${height + 500}`}
+        viewBox={`-${width / 2} -${height / 2} ${width + 600} ${height + 600}`}
         preserveAspectRatio={"xMidYMid meet"}
       >
-        <g transform="translate(250,250)">
+        <g transform="translate(300,300)">
           <rect
             fillOpacity={0}
             height={height}

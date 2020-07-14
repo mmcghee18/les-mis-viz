@@ -6,7 +6,7 @@ const matrix = [...Array(46).fill(0)].map((e) => Array(46).fill(0));
 
 _.forEach(themes, ({ songs_where_it_appears }) => {
   const sortedSongs = _.sortBy(songs_where_it_appears, "song_id");
-  const fromSong = songs_where_it_appears[0];
+  const fromSong = sortedSongs[0];
 
   for (let i = 1; i < sortedSongs.length; i++) {
     const toSong = sortedSongs[i];

@@ -14,6 +14,7 @@ function App() {
         componentId={1}
         groupLabels={songNames}
         groupColors={["#000000", "#FFDD89", "#957244", "#F26223"]}
+        themeColors={["#000000", "#FFDD89", "#957244", "#F26223"]} // TODO: a color for each theme
         resizeWithWindow={true}
       />
     </div>

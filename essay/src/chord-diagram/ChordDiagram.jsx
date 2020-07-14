@@ -119,6 +119,7 @@ export default class ChordDiagram extends Component {
       className,
       groupLabels,
       groupColors,
+      themeColors,
       groupOnClick,
       padAngle,
       sortGroups,
@@ -158,6 +159,10 @@ export default class ChordDiagram extends Component {
       .domain(range(groupColors.length))
       .range(groupColors);
 
+    const colorByTheme = scaleOrdinal()
+      .domain(range(themeColors.length))
+      .range(themeColors);
+
     return (
       <Svg
         width={width}
@@ -186,6 +191,7 @@ export default class ChordDiagram extends Component {
         <Ribbons
           chords={chords}
           color={color}
+          colorByTheme={colorByTheme}
           disableHover={disableHover || disableRibbonHover}
           ribbon={d3Ribbon}
           setMouseOverRibbon={this.setMouseOverRibbon}

@@ -7,6 +7,7 @@ import { isHiddenRibbon } from "./utils";
 const Ribbons = ({
   chords,
   color,
+  colorByTheme,
   disableHover,
   ribbon,
   setMouseOverRibbon,
@@ -19,50 +20,52 @@ const Ribbons = ({
   blurOnHover,
   ribbonOpacity,
   ribbonBlurOpacity,
-}) => (
-  <g className="ribbons" fillOpacity={ribbonOpacity}>
-    {chords.map((chord, chordIndex) => {
-      const hidden =
-        isHiddenRibbon(
-          mouseOverGroup,
-          chord.source.index,
-          chord.target.index
-        ) || isHiddenRibbon(mouseOverRibbon, chordIndex, null);
+}) => {
+  return (
+    <g className="ribbons" fillOpacity={ribbonOpacity}>
+      {chords.map((chord, chordIndex) => {
+        const hidden =
+          isHiddenRibbon(
+            mouseOverGroup,
+            chord.source.index,
+            chord.target.index
+          ) || isHiddenRibbon(mouseOverRibbon, chordIndex, null);
 
-      const style = blurOnHover
-        ? { fillOpacity: `${hidden ? ribbonBlurOpacity : ribbonOpacity}` }
-        : {
-            display: `${hidden ? "none" : "block"}`,
-            fillOpacity: ribbonOpacity,
-          };
+        const style = blurOnHover
+          ? { fillOpacity: `${hidden ? ribbonBlurOpacity : ribbonOpacity}` }
+          : {
+              display: `${hidden ? "none" : "block"}`,
+              fillOpacity: ribbonOpacity,
+            };
 
-      return (
-        <path
-          key={chordIndex}
-          style={style}
-          fill={color(chord.target.index)}
-          stroke={`${rgb(color(chord.target.index)).darker()}`}
-          strokeWidth={strokeWidth}
-          d={`${ribbon({ source: chord.source, target: chord.target })}`}
-          onClick={() => {
-            setHoverPersist(!hoverPersist);
-            onClick(chordIndex);
-          }}
-          onMouseOver={
-            !disableHover && !hoverPersist
-              ? () => setMouseOverRibbon(chordIndex)
-              : null
-          }
-          onMouseOut={
-            !disableHover && !hoverPersist
-              ? () => setMouseOverRibbon(null)
-              : null
-          }
-        />
-      );
-    })}
-  </g>
-);
+        return (
+          <path
+            key={chordIndex}
+            style={style}
+            fill={color(chord.target.index)}
+            stroke={`${rgb(color(chord.target.index)).darker()}`}
+            strokeWidth={strokeWidth}
+            d={`${ribbon({ source: chord.source, target: chord.target })}`}
+            onClick={() => {
+              setHoverPersist(!hoverPersist);
+              onClick(chordIndex);
+            }}
+            onMouseOver={
+              !disableHover && !hoverPersist
+                ? () => setMouseOverRibbon(chordIndex)
+                : null
+            }
+            onMouseOut={
+              !disableHover && !hoverPersist
+                ? () => setMouseOverRibbon(null)
+                : null
+            }
+          />
+        );
+      })}
+    </g>
+  );
+};
 
 Ribbons.propTypes = {
   chords: PropTypes.array.isRequired,
