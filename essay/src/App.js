@@ -3,9 +3,12 @@ import "./App.css";
 import ChordDiagram from "./chord-diagram/ChordDiagram.jsx";
 import matrix from "./data/matrix.json";
 import songNames from "./data/songNames.json";
+import * as d3 from "d3";
 import _ from "lodash";
 
 function App() {
+  const palette = d3.interpolateSpectral;
+
   return (
     <div className="App">
       <h1>Themes in Les Miserables</h1>
