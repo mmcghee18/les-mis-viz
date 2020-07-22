@@ -28,8 +28,6 @@ const Ribbons = ({
         const themeName = themeLookup[[chord.source.index, chord.target.index]];
         const themeColor = themeColors[themeName];
 
-        console.log(themeColor);
-
         const hidden =
           isHiddenRibbon(
             mouseOverGroup,
@@ -48,10 +46,8 @@ const Ribbons = ({
           <path
             key={chordIndex}
             style={style}
-            //fill={color(chord.target.index)}
             fill={`#${themeColor}`}
-            //stroke={`${rgb(color(chord.target.index)).darker()}`}
-            stroke={`${rgb(themeColor).darker()}`}
+            stroke={rgb(`#${themeColor}`).darker()}
             strokeWidth={strokeWidth}
             d={`${ribbon({ source: chord.source, target: chord.target })}`}
             onClick={() => {
