@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/les-mis-viz/static/css/main.6da6f3aa.chunk.css",
-    "main.js": "/les-mis-viz/static/js/main.bde2bd74.chunk.js",
-    "main.js.map": "/les-mis-viz/static/js/main.bde2bd74.chunk.js.map",
+    "main.js": "/les-mis-viz/static/js/main.6749557d.chunk.js",
+    "main.js.map": "/les-mis-viz/static/js/main.6749557d.chunk.js.map",
     "runtime-main.js": "/les-mis-viz/static/js/runtime-main.d5214509.js",
     "runtime-main.js.map": "/les-mis-viz/static/js/runtime-main.d5214509.js.map",
-    "static/js/2.fd815ea6.chunk.js": "/les-mis-viz/static/js/2.fd815ea6.chunk.js",
-    "static/js/2.fd815ea6.chunk.js.map": "/les-mis-viz/static/js/2.fd815ea6.chunk.js.map",
+    "static/js/2.75e55130.chunk.js": "/les-mis-viz/static/js/2.75e55130.chunk.js",
+    "static/js/2.75e55130.chunk.js.map": "/les-mis-viz/static/js/2.75e55130.chunk.js.map",
     "index.html": "/les-mis-viz/index.html",
-    "precache-manifest.8e87d0fb7222a3b5960849c0efe49cdc.js": "/les-mis-viz/precache-manifest.8e87d0fb7222a3b5960849c0efe49cdc.js",
+    "precache-manifest.ae01d0f037cb5a39273ccfe82803d24e.js": "/les-mis-viz/precache-manifest.ae01d0f037cb5a39273ccfe82803d24e.js",
     "service-worker.js": "/les-mis-viz/service-worker.js",
     "static/css/main.6da6f3aa.chunk.css.map": "/les-mis-viz/static/css/main.6da6f3aa.chunk.css.map",
-    "static/js/2.fd815ea6.chunk.js.LICENSE.txt": "/les-mis-viz/static/js/2.fd815ea6.chunk.js.LICENSE.txt"
+    "static/js/2.75e55130.chunk.js.LICENSE.txt": "/les-mis-viz/static/js/2.75e55130.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d5214509.js",
-    "static/js/2.fd815ea6.chunk.js",
+    "static/js/2.75e55130.chunk.js",
     "static/css/main.6da6f3aa.chunk.css",
-    "static/js/main.bde2bd74.chunk.js"
+    "static/js/main.6749557d.chunk.js"
   ]
 }
