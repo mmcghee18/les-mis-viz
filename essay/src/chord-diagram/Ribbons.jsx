@@ -6,8 +6,9 @@ import { isHiddenRibbon } from "./utils";
 
 const Ribbons = ({
   chords,
+  themeLookup,
+  themeColors,
   color,
-  colorByTheme,
   disableHover,
   ribbon,
   setMouseOverRibbon,
@@ -24,6 +25,11 @@ const Ribbons = ({
   return (
     <g className="ribbons" fillOpacity={ribbonOpacity}>
       {chords.map((chord, chordIndex) => {
+        const themeName = themeLookup[[chord.source.index, chord.target.index]];
+        const themeColor = themeColors[themeName];
+
+        console.log(themeColor);
+
         const hidden =
           isHiddenRibbon(
             mouseOverGroup,
@@ -42,8 +48,10 @@ const Ribbons = ({
           <path
             key={chordIndex}
             style={style}
-            fill={color(chord.target.index)}
-            stroke={`${rgb(color(chord.target.index)).darker()}`}
+            //fill={color(chord.target.index)}
+            fill={`#${themeColor}`}
+            //stroke={`${rgb(color(chord.target.index)).darker()}`}
+            stroke={`${rgb(themeColor).darker()}`}
             strokeWidth={strokeWidth}
             d={`${ribbon({ source: chord.source, target: chord.target })}`}
             onClick={() => {

@@ -37,8 +37,10 @@ const Groups = ({
       >
         <path
           id={`component${componentId}-group${groupIndex}`}
-          fill={`${color(groupIndex)}`}
-          stroke={`${rgb(color(groupIndex)).darker()}`}
+          //fill={`${color(groupIndex)}`}
+          fill="grey"
+          //stroke={`${rgb(color(groupIndex)).darker()}`}
+          stroke="grey"
           d={arc(group)}
         />
 
@@ -49,9 +51,10 @@ const Groups = ({
           }) translate(${outerRadius + 10}) ${
             getAngle(group) > Math.PI ? "rotate(180)" : ""
           }`}
-          fill={
-            labelColors.length === 1 ? labelColors[0] : labelColors[groupIndex]
-          }
+          // fill={
+          //   labelColors.length === 1 ? labelColors[0] : labelColors[groupIndex]
+          // }
+          fill="black"
           style={{
             textAnchor:
               (group.startAngle + group.endAngle) / 2 > Math.PI ? "end" : null,
